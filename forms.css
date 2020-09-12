@@ -1,0 +1,29 @@
+body{
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("movierent.jpg");
+
+}
+
+.bg{
+    background-color: cornsilk;
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center{
+    text-align:center;
+    margin: 20px 20px 0 0 ; 
+}
+
+.right{
+    
+    position:absolute; 
+    background-color: cornsilk;
+    bottom:0px;
+    right: 0px;
+    
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./forms.css">
+    <title>Forms</title>
+    <script src="./scrip.js"></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="center">
+            <h1>Welcome the Movie Rental Store</h1>
+        </div>
+        <form name="theForm" onsubmit="return validate()">
+            <div class="center">
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="name">
+            </div>
+            <div class="center">
+                <label for="dob">Your Date of birthday </label>
+                <input type="date" name="DOB" id="dob">
+            </div>
+            <!-- email   -->
+            <div class="center">
+                <label for="Email">Please Enter your Email</label>
+                <input type="email" name="EMAIL" id="Email">
+            </div>
+            <div class="center">
+                <p>Select the Year of Release</p>
+                <!-- checkbox -->
+                <label for="year">2015</label>
+                <input type="checkbox" id="2015" checked = "checked" name="2015" value="2015" >
+                <label for="year">2016</label>
+                <input type="checkbox" id="2016"  name="2016" value="2016">
+                <label for="year">2017</label>
+                <input type="checkbox" id="2017"  name="2017" value="2017">
+                <label for="year">2018</label>
+                <input type="checkbox" id="2018"  name="2018" value="2018">
+                <label for="year">2019</label>
+                <input type="checkbox" id="2019"  name="2019" value="2019">
+            </div>    
+                <!-- radio -->
+            <div class="center">            
+                <p>Select the Genre for the movie</p>
+                <input type="radio" checked = "checked" name="gen" id="action">
+                <label for="action">action</label>
+                <input type="radio" name="gen" id="comedy">
+                <label for="comedy">comedy</label>
+                <input type="radio" name="gen" id="drama">
+                <label for="drama">drama</label>
+                <input type="radio" name="gen" id="fantasy">
+                <label for="fantasy">fantasy</label>
+                <input type="radio" name="gen" id="horror">
+                <label for="horror">horror</label>
+                <input type="radio" name="gen" id="mystery">
+                <label for="mystery">mystery</label>
+                <input type="radio" name="gen" id="romance">
+                <label for="romance">romance</label>
+                <input type="radio" name="gen" id="thriller">
+                <label for="thriller">thriller</label>
+            </div>
+            <!-- textarea -->
+            <div class="center">
+                <label for="desc">Enter the description of the movie</label>
+                <br>
+                <textarea name="Descrip" id="desc" cols="30" rows="10"></textarea>
+            </div>
+            <div class="center">
+                <button type="submit" id="submit">Submit!</button>  
+            </div>
+            
+        </form>
+            
+    </div>
+    
+    <div class="right">
+        <p>This site is created by Tarun</p>
+    </div>
+    
+</body>
+
+</html>
